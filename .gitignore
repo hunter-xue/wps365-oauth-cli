@@ -1,0 +1,31 @@
+# 敏感配置 — 绝对不提交
+.env
+*.env
+!.env.example
+
+# 编译产物
+build/
+oauth_tools
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试缓存
+*.test
+*.out
+coverage.out
+coverage.html
+
+# Go 工具缓存
+vendor/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
